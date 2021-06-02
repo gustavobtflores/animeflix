@@ -92,7 +92,7 @@ header .container {
 }
 
 .box-anime {
-	height: 450px;
+	height: 100%;
 	width: 100%;
 	display: block;
 }
