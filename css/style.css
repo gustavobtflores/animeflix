@@ -1,0 +1,35 @@
+:root {
+	--vermelho: #e50914;
+	--preto: #141414;
+}
+
+body {
+	background: var(--preto);
+	font-family: "Montserrat", sans-serif;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1em 0 0;
+}
+
+.header__logo {
+	color: var(--vermelho);
+	font-family: "Bebas Neue", cursive;
+	font-size: 60px;
+	letter-spacing: 2px;
+}
+
+.header__nav a {
+	text-decoration: none;
+	color: #aaa;
+	margin-right: 10px;
+}
+
+.header__nav a:hover {
+	color: #fff;
+}
