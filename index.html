@@ -11,18 +11,80 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" />
+
+		<!--arquivos owl-->
+		<link rel="stylesheet" href="/css/owl/owl.carousel.min.css" />
+		<link rel="stylesheet" href="/css/owl/owl.theme.default.min.css" />
+		<!--arquivos owl-->
 	</head>
 	<body>
 		<header>
 			<div class="container">
-				<h2 class="header__logo">NETFLIX</h2>
+				<h2 class="header__logo">ANIME<span style="color: white">FLIX</span></h2>
 				<nav class="header__nav">
 					<a href="#">Início</a>
-					<a href="#">Séries</a>
+					<a href="#">Animes</a>
 					<a href="#">Filmes</a>
-					<a href="#">Documentários</a>
+					<a href="#">Categorias</a>
 				</nav>
 			</div>
 		</header>
+		<main>
+			<div class="anime-principal">
+				<div class="container">
+					<h3 class="anime-principal__titulo">Demon Slayer</h3>
+					<p class="descricao">Um triste conto sobre dois irmãos, onde os destinos dos humanos e dos demônios se entrelaçam, começa agora.</p>
+					<div class="botoes">
+						<button class="botao" role="button"><i class="fas fa-play"></i>Assistir agora</button>
+						<button class="botao" role="button"><i class="fas fa-info-circle"></i>Mais informações</button>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<div class="carrossel-filmes">
+			<div class="owl-carousel owl-theme">
+				<div class="item">
+					<img src="/img/mini1.jpg" alt="Boku no Hero" class="box-filme" />
+				</div>
+				<div class="item">
+					<img src="/img/mini2.jpg" alt="Attack on Titan" class="box-filme" />
+				</div>
+				<div class="item">
+					<img src="/img/mini3.jpg" alt="Death Note" class="box-filme" />
+				</div>
+				<div class="item">
+					<img src="/img/mini4.jpg" alt="Naruto Shippuuden" class="box-filme" />
+				</div>
+				<div class="item">
+					<img src="/img/mini5.jpg" alt="Jujutsu Kaisen" class="box-filme" />
+				</div>
+				<div class="item">
+					<img src="/img/mini6.jpg" alt="Haikyuu!!" class="box-filme" />
+				</div>
+				<div class="item">
+					<img src="/img/mini7.jpg" alt="One Piece" class="box-filme" />
+				</div>
+				<div class="item">
+					<img src="/img/mini8.jpg" alt="Bleach" class="box-filme" />
+				</div>
+				<div class="item">
+					<img src="/img/mini9.jpg" alt="Dr. Stone" class="box-filme" />
+				</div>
+				<div class="item">
+					<img src="/img/mini10.jpg" alt="Hunter x Hunter" class="box-filme" />
+				</div>
+			</div>
+		</div>
+
+		<!--font awesome-->
+		<script src="https://kit.fontawesome.com/eb581e7abd.js"></script>
+		<!--font awesome-->
+
+		<!--arquivos script owl-->
+		<script src="/js/owl/jquery.min.js"></script>
+		<script src="/js/owl/owl.carousel.min.js"></script>
+		<script src="/js/setup.js"></script>
+		<!--arquivos script owl-->
 	</body>
 </html>

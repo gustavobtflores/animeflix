@@ -6,15 +6,13 @@
 body {
 	background: var(--preto);
 	font-family: "Montserrat", sans-serif;
-	max-width: 1440px;
-	margin: 0 auto;
 }
 
 header .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 1em 0 0;
+	margin: 1rem inherit;
 }
 
 .header__logo {
@@ -32,4 +30,67 @@ header .container {
 
 .header__nav a:hover {
 	color: #fff;
+	transition: 0.4s;
+}
+
+/*anime principal styles*/
+
+.anime-principal {
+	font-size: 16px;
+	color: white;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url(/img/DemonSlayer.jpg);
+	background-size: cover;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.anime-principal__titulo {
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	margin-top: 15%;
+}
+
+.botao {
+	text-transform: uppercase;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: none;
+	color: white;
+	padding: 15px 30px;
+	margin-right: 15px;
+	font-size: 0.9em;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.botao:hover {
+	background-color: white;
+	color: black;
+	transition: 0.4s ease all;
+}
+
+.anime-principal .descricao {
+	margin-bottom: 40px;
+	margin-top: 15px;
+}
+
+.botao i {
+	margin-right: 10px;
+}
+
+.container {
+	margin-left: 15px;
+}
+
+.anime-principal .container {
+	width: 70%;
+}
+
+.box-filme {
+	height: 400px;
+	width: 100%;
+	display: block;
 }
