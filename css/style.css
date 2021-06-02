@@ -12,12 +12,12 @@ header .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 1rem inherit;
+	margin-top: 1rem;
 }
 
 .header__logo {
 	color: var(--vermelho);
-	font-family: "Bebas Neue", cursive;
+	font-family: "Bebas Neue", Arial;
 	font-size: 60px;
 	letter-spacing: 2px;
 }
@@ -40,11 +40,13 @@ header .container {
 	color: white;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url(/img/DemonSlayer.jpg);
 	background-size: cover;
+	background-position: center;
 	height: 600px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
+	margin-top: 5px;
 }
 
 .anime-principal__titulo {
@@ -89,8 +91,12 @@ header .container {
 	width: 70%;
 }
 
-.box-filme {
-	height: 400px;
+.box-anime {
+	height: 450px;
 	width: 100%;
 	display: block;
+}
+
+.carrossel-animes {
+	margin-top: 10px;
 }

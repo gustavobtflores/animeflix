@@ -1,0 +1,22 @@
+@media screen and (max-width: 700px) {
+	header .container {
+		flex-direction: column;
+	}
+
+	.botoes {
+		display: flex;
+		flex-direction: column;
+	}
+	.botao {
+		margin-bottom: 10px;
+	}
+	.anime-principal {
+		justify-content: flex-end;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.anime-principal .container {
+		width: 50%;
+	}
+} ;
