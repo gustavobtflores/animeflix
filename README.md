@@ -15,3 +15,6 @@ AnimeFlix é um projeto desenvolvido durante o bootcamp HTML Web Developer da Di
   <img  src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
   <br>
 </div>
+<br>
+
+Veja o projeto <a href="https://animeflix-clonenetflix.netlify.app/" target="_blank">aqui</a> 
