@@ -2,6 +2,10 @@
 
 ![animeflix/Animeflix.gif at master · gustavobtflores/animeflix (github.com)](https://github.com/gustavobtflores/animeflix/blob/master/img/resultado/Animeflix.gif)
 
+<div align="center">
+<span align="center">Veja <a href="https://animeflix-clonenetflix.netlify.app/" target="_blank">aqui</a></span> 
+</div>
+
 <h2 align="center">Sobre o projeto</h2>
 
 AnimeFlix é um projeto desenvolvido durante o bootcamp HTML Web Developer da Digital Innovation One. O projeto foi desenvolvido utilizando HTML/CSS, Javascript, jQuery e tem um design responsivo, sendo um clone da interface do Netflix com o tema de animes.
@@ -17,4 +21,4 @@ AnimeFlix é um projeto desenvolvido durante o bootcamp HTML Web Developer da Di
 </div>
 <br>
 
-Veja o projeto <a href="https://animeflix-clonenetflix.netlify.app/" target="_blank">aqui</a> 
+
