@@ -4,16 +4,18 @@
 
 <h2 align="center">Sobre o projeto</h2>
 
-AnimeFlix é um projeto desenvolvido no bootcamp HTML Web Developer da Digital Innovation One. O projeto foi desenvolvido utilizando HTML/CSS, Javascript, jQuery e tem um design responsivo, sendo um clone da interface do Netflix com o tema de animes. 
+AnimeFlix é um projeto desenvolvido durante o bootcamp HTML Web Developer da Digital Innovation One. O projeto foi desenvolvido utilizando HTML/CSS, Javascript, jQuery e tem um design responsivo, sendo um clone da interface do Netflix com o tema de animes.
 
 <div align="center">
-  
   <h2 align="center">Tecnologias utilizadas</h2>
+  <br>
   <img  src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img  src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   <img  src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
   <img  src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+  <br>
 </div>
 
+<h2 align="center">Resultados</h2>
 
 
